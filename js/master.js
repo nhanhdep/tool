@@ -93,7 +93,7 @@
       byId('output').value = minifiedValue;
 
       byId('stats').innerHTML =
-        '<span class="success">' +
+        '<span class="zsuccess">' +
           'Original size: <strong>' + commify(originalValue.length) + '</strong>' +
           '. Minified size: <strong>' + commify(minifiedValue.length) + '</strong>' +
           '. Savings: <strong>' + commify(diff) + ' (' + savings + '%)</strong>.' +
